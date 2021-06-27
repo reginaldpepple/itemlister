@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: calibri;
+}
+
+body header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+}
+
+body header form input {
+    padding: 5px;
+    width: 250px;
+    border: none;
+}
+
+body section {
+    width: 500px;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+body section form {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+body section form input[type="text"] {
+    width: 75%;
+    padding: 10px;
+}
+
+body section form input[type="submit"] {
+    width: 20%;
+    background-color: crimson;
+    color: white;
+    border: none;
+}
+
+body section h3 {
+    margin-bottom: 1rem;
+}
+
+body section ul {
+    width: 100%;
+}
+
+body section ul li {
+
+    padding: 10px 5px;
+    border: 0.1px solid grey;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body section ul li button {
+    border: none;
+    padding: 5px 10px;
+    background-color: crimson;
+}
+
